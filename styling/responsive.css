@@ -1,0 +1,42 @@
+@media screen and (max-width: 996px){
+    .nav-menu{
+        border-bottom: none;
+    }
+    .get-quote{
+        position: absolute;
+        bottom: 40px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 0.4em 1em;
+        background: linear-gradient(#fa709a,#fee140);
+        border-radius: 4em;
+    }
+    .get-quote a{
+        font-size: 1.2em;
+    }
+}
+
+/* Ipad styling */
+@media screen and (max-width: 768px){
+.hero{
+    height: 75vh;
+}
+.get-quote{
+    position: absolute;
+    bottom: 140px;
+}
+}
+/* End of Ipad styling */
+
+@media screen and (max-width: 415px){
+    .hero{
+        height: 80vh;
+    }
+    .get-quote{
+        position: absolute;
+        bottom: 90px;
+    }
+    .carousel-left{
+        left: 75%;
+    }
+}

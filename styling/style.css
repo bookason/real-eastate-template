@@ -1,0 +1,289 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+    font-family: "Open Sans", sans-serif !important;
+    background: #eee  !important;
+}
+
+/* UI elements */
+
+/* Button */ .learn-more{
+    border-radius: 4em;
+    background: #05b5c3;
+    border:none; 
+}
+
+
+/* End of UI */
+
+/* predefined elements */
+
+h1, h2, h3, h4{
+    font-weight: 800;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+/* end of predefined elements */
+
+/* Header Section */
+.hero{
+    position: relative;
+    height: 120vh;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.75)),url('../images/14323.jpg') no-repeat center center/cover;
+}
+
+
+/* Nav menu */
+.nav-menu{
+    border-bottom: 1px groove #fee;
+    transition: all 0.7s;
+}
+.nav-menu img{
+    transition: all 0.7s;
+}
+.hamburger:focus{
+    box-shadow: none  !important;
+   
+}
+
+.hamburger  div{
+ width: 30px;
+ height: 4px;
+ background: #fee;
+ margin-bottom: 5px;
+ border-radius: 3px;
+}
+
+
+.one,.two,.three{
+transition: all 0.5s;
+}
+
+/* Hamburger on mobile click */
+.change .one{
+    transform: rotate(-45deg) translate(-4px,6px);
+}
+
+.change .two{
+    opacity: 0;
+}
+
+.change .three{
+    transform: rotate(45deg) translate(-4px, -6px);
+}
+
+/* End of hamburger on click */
+
+
+/* Navbar on scroll */
+
+.scroll .nav-menu{
+    background: #eee;
+    box-shadow: 5px 3px 30px 3px rgba(0,0,0,0.2);
+    border-bottom: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.scroll .nav-menu a{
+    color: #05b5c3   !important;
+}
+
+.scroll .nav-menu img{
+    width: 75px;
+}
+
+.scroll .nav-menu input[type="text"]{
+    color: #05b5c3;
+}
+.scroll .hamburger div{
+    background:#05b5c3;
+}
+/* end of Navbar on scroll */
+
+
+.menu-form input[type="text"]{
+    background: transparent !important;
+    border: none;
+    border-bottom: 1px groove #ddd;
+    border-radius: 0;
+    box-shadow: none;
+    transition: 0.6s all;
+    color: #fee;
+}
+.menu-form input[type="text"]:focus{
+    border-bottom: 1px solid #05b5c3;
+}
+.menu-form input[type="text"]::placeholder{
+    color: rgb(211, 209, 209);
+}
+.fa-search{
+    color: #05b5c3;
+}
+
+/* End of nav menu */
+
+
+
+/* Get Quote */
+.get-quote{
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1em 2.5em;
+    background: #05b5c3;
+    border-radius: 4em;
+    color: #eee;
+    font-size: 1.2em;
+    transition: all 0.4s ease-in-out;
+}
+.get-quote:hover {
+    text-decoration: none;
+    color: #eee;
+    opacity: 0.82;
+}
+
+/* About section */
+
+.icon-card{
+    background: #05b5c3;
+}
+
+.icon-card button{
+    user-select: none;
+    pointer-events: none;
+    border: none;
+    border-bottom: 2px groove #ddd;
+    border-radius: 0;
+}
+
+.why-us > div:first-child{
+    color: #05b5c3;
+}
+
+.sub-heading span{
+    color: #fee140;
+}
+
+.why-us > div:last-child p{
+    line-height: 1.8;
+}
+
+/* End of About section */
+
+
+
+/* Selected Projects */
+
+
+
+.filter-item{
+    color: #212529;
+    font-size: 1.15em;
+    cursor: pointer;
+    user-select: none;
+}
+
+.filter-image{
+    display: flex;
+    flex-wrap: wrap;
+}
+.filter-image img{
+    width: 360px;
+}
+.active-filter{
+    color: #fee140;
+}
+/* End of Selected Projects */
+
+
+
+/* Testimonial section */
+
+.picture-box{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.carousel-control{
+    background: #ddd;
+    width: 40px !important;
+    height: 40px;
+    border-radius: 50%;
+}
+.carousel-left{
+    left: 80%;
+}
+
+.carousel-indicators{
+bottom: -25px !important;
+}
+.carousel-indicators li{
+    width: 10px !important;
+    height: 10px !important;
+    margin: 1px 5px;
+    border-radius: 50%;
+    border: none !important;
+}
+
+ol.pointers li{
+    background: #ddd !important;
+    opacity: 1 !important;
+}
+.pointers li.active{
+    background: #fee140 !important;
+}
+
+
+/* End of Testimonial section */
+
+
+/* Footer section */
+footer{
+    background: rgba(0,0,0,0.7);
+}
+.footer-links{
+    margin: 15px 0;
+}
+
+.footer-links a{
+    color: #fff;
+}
+.footer-links a:hover{
+    text-decoration: none;
+}
+
+.contact-form input, .contact-form textarea{
+background: rgb(138, 137, 137) !important;
+border: none;
+border-radius: 4em !important;
+box-shadow: none;
+color: #fff !important;
+}
+
+.contact-form textarea{
+border-radius: 3em !important;
+}
+
+.contact-form input::placeholder, .contact-form textarea::placeholder{
+    color: #ddd !important;
+    font-style: italic;
+}
+
+.contact-form input:focus, .contact-form textarea:focus{
+    box-shadow:none !important;
+    }
+.contact-form .btn{
+    border-radius: 4em !important;
+    color: #fff;
+}
