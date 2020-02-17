@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Style sheet, Responsive and Bootstrap -->
+    
+    <link rel="stylesheet" href="styling/bootstrap.css">
+    <link rel="stylesheet" href="styling/style.css">
+    <link rel="stylesheet" href="styling/responsive.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <title>Construction Website</title>
+</head>
+<body>
+
+<!-- Hero and header section -->
+
+<header class="hero">
+
+<!-- Navigation -->
+
+<nav class="navbar navbar-expand-lg nav-menu fixed-top">
+    <a href="#" class="navbar-brand">
+        <img src="images/logo.png" width="90">
+    </a>
+    
+    <button class="navbar-toggler hamburger btn" data-toggle="collapse" data-target="#navigation" type="button">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+    </button>
+
+    <div class="collapse navbar-collapse  justify-content-end text-light mr-3" id="navigation">
+        <ul class="navbar-nav font-weight-bold">
+            <li class="nav-item mx-3">
+                <a href="#" class="nav-link text-light">Home</a>
+            </li>
+            <li class="nav-item mx-3">
+                <a href="#" class="nav-link text-light">About</a>
+            </li>
+            <li class="nav-item mx-3">
+                <a href="#" class="nav-link text-light">Services</a>
+            </li>
+            <li class="nav-item mx-3">
+                <a href="#" class="nav-link text-light">Engineering</a>
+            </li>
+            <li class="nav-item mx-3">
+                <a href="#" class="nav-link text-light">Contact</a>
+            </li>
+        </ul>
+        <form action="" class="form-line ml-3">
+            <div class="input-group menu-form">
+                <input type="text" placeholder="Search..." class="form-control p-0">
+                <div class="input-group-append p-0">
+                    <span><i class="fas fa-search fa-1x mt-3"></i></span>
+                </div>
+            </div>
+        </form>
+    </div>
+</nav>
+
+<!-- End of Navigation -->
+
+<a href = "#" class="get-quote">
+    Get Quote
+</a>
+</header>
+
+
+<!-- End of Hero and header section -->
+
+
+<!-- About us section -->
+
+<section>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-4 p-0 icon-card text-white">
+            <div class="text-center">
+                <div class="p-4">
+                    <i class="fas fa-globe-americas fa-4x "></i>
+                </div>
+                <div class="p-4">
+                    <p>
+                        We are present in over 65 countries,
+                        spread across Americas, Europe and Africa.
+                    </p>
+                    <button class="px-5 btn"></button>
+                </div>
+            </div>
+
+            <div class="text-center">
+                <div class="p-4">
+                    <i class="fas fa-building fa-4x "></i>
+                </div>
+                <div class="p-4">
+                    <p>
+                        Over 200 completed projects and still counting. 
+                        We are poised to deliver beyond expectation. 
+                    </p>
+                    <button class="px-5 btn"></button>
+                </div>
+            </div>
+
+            <div class="text-center">
+                <div class="p-4">
+                    <i class="fas fa-money-bill-alt fa-4x"></i>
+                </div>
+                <div class="p-4">
+                    <p>
+                        Value for your money. You want to make the biggest bang for your
+                        bucks, we understand that.  
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-8 why-us sub-heading p-5">
+            <div class="px-3">
+                <h4> Why Us?</h4>
+            </div>
+            <div class="pl-3">
+                <h2 class="font-weight-bold">
+                    25 Years of <span> Excellence</span> in Construction Engineering
+                </h2>
+                <p class="py-4">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea itaque repellat dolorem fugiat, reprehenderit omnis repudiandae. Labore quaerat aliquid ipsam sint delectus corrupti quas quam, accusamus tempore asperiores, perspiciatis ex itaque rerum accusantium porro? Error est dolorum magni corrupti ducimus.
+                </p>
+                <button class="mt-4 py-2 px-4 learn-more text-light font-weight-medium" type="button"> Learn More</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+</section>
+
+<!-- End of About us section -->
+
+
+<!-- Selected Projects -->
+
+<section class="py-3 py-lg-5">
+    <div class="container">
+        <div class="row sub-heading">
+            <div class="col py-3 py-lg-5">
+                <h2 class="font-weight-bold">
+                    Selected <span> Projects</span>
+                </h2>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="container mb-5">
+        <ul class="list-inline text-center text-lg-right">
+            <li class="list-inline-item filter-item font-weight-bold active-filter" data-filter="all"> All <span class="mx-lg-3">/</span></li>
+            <li class="list-inline-item filter-item font-weight-bold" data-filter="residential"> Residential<span class="mx-lg-3">/</span></li>
+            <li class="list-inline-item filter-item font-weight-bold" data-filter="hospital"> Hospital <span class="mx-lg-3">/</span></li>
+            <li class="list-inline-item filter-item font-weight-bold" data-filter="office"> Office Complex</li>
+        </ul>
+    </div>
+        
+    <div class="container filter-image mx-auto">
+        <div class="filter office my-1 mx-lg-1 mx-auto">
+            <img src="images/office.png" alt="" class="img-fluid">
+        </div>
+        <div class="filter hospital my-1 mx-lg-1 mx-auto">
+            <img src="images/Hospital.png" alt="" class="img-fluid">
+        </div>
+        <div class="filter residential my-1 mx-lg-1 mx-auto">
+            <img src="images/resident.png" alt="" class="img-fluid">
+        </div>
+        <div class="filter office my-1 mx-lg-1 mx-auto">
+            <img src="images/Office complex.png" alt="" class="img-fluid">
+        </div>
+        <div class="filter residential my-1 mx-lg-1 mx-auto">
+            <img src="images/residential.png" alt="" class="img-fluid">
+        </div>
+    </div>
+    
+    
+</section>
+
+<!-- End of Selected Projects -->
+
+
+<!-- Testimonials -->
+<section>
+
+<div class="container">
+
+    <div class="row sub-heading">
+        <div class="col py-3 py-lg-5">
+            <h2 class="font-weight-bold">
+                Testimonials From <span> Clients </span>
+            </h2>
+        </div>
+            
+    </div>
+
+    <!-- Carousel -->
+    <div class="row">
+        <div class="col-lg-8 mx-auto carousel-box">
+
+            <div class="carousel slide position-relative" data-ride="carousel" id="myCarousel">
+
+                <ol class="carousel-indicators pointers">
+                    <li data-target="#myCarousel" data-slide-to ="0" class="active"></li>  
+                    <li data-target="#myCarousel" data-slide-to ="1"></li>  
+                    <li data-target="#myCarousel" data-slide-to ="2"></li> 
+                </ol>
+
+                <div class="carousel-inner">
+
+                    <div class="item carousel-item text-center active">
+                        <div class="picture-box">
+                           <img src="images/client1.png" alt="" class="w-100 rounded-circle"> 
+                        </div>
+                        <p class="testimonial-text">
+                           Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                           Earum dignissimos ipsum molestias non culpa vel ea perspiciatis provident accusantium quos.
+                        </p>
+                        <p class="bio lead font-weight-bold text-uppercase mb-0"> Kate Whitewaters </p>
+                        <span class="mt-0"> Project Manager <a href="#" class="text-warning">Bluebird Hotels </a></span>
+                        <div class="rating">
+                            <ul class="list-inline">
+                                <li class="list-inline-item"> <i class="fa fa-star text-warning"></i></li>
+                                <li class="list-inline-item"> <i class="fa fa-star text-warning"></i></li>
+                                <li class="list-inline-item"> <i class="fa fa-star text-warning"></i></li>
+                                <li class="list-inline-item"> <i class="fa fa-star text-warning"></i></li>
+                                <li class="list-inline-item"> <i class="fas fa-star text-warning"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="item carousel-item text-center">
+                        <div class="picture-box">
+                        <img src="images/client2.png" alt="" class="w-100 rounded-circle"> 
+                        </div>
+                        <p class="testimonial-text">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Earum dignissimos ipsum molestias non culpa vel ea perspiciatis provident accusantium quos.
+                        </p>
+                        <p class="bio lead font-weight-bold text-uppercase mb-0"> Clarence Davies </p>
+                        <span class="mt-0"> Estate Manager <a href="#" class="text-warning">Wework Homes </a></span>
+                        <div class="rating">
+                            <ul class="list-inline">
+                                <li class="list-inline-item"> <i class="fa fa-star text-warning"></i></li>
+                                <li class="list-inline-item"> <i class="fa fa-star text-warning"></i></li>
+                                <li class="list-inline-item"> <i class="fa fa-star text-warning"></i></li>
+                                <li class="list-inline-item"> <i class="fa fa-star text-warning"></i></li>
+                                <li class="list-inline-item"> <i class="fas fa-star-half text-warning"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="item carousel-item text-center">
+                        <div class="picture-box">
+                        <img src="images/client3.png" alt="" class="w-100 rounded-circle"> 
+                        </div>
+                        <p class="testimonial-text">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Earum dignissimos ipsum molestias non culpa vel ea perspiciatis provident accusantium quos.
+                        </p>
+                        <p class="bio lead font-weight-bold text-uppercase mb-0"> Ain Mary </p>
+                        <span class="mt-0"> Property Developer <a href="#" class="text-warning">Woodward Realties</a></span>
+                        <div class="rating">
+                            <ul class="list-inline">
+                                <li class="list-inline-item"> <i class="fa fa-star text-warning"></i></li>
+                                <li class="list-inline-item"> <i class="fa fa-star text-warning"></i></li>
+                                <li class="list-inline-item"> <i class="fa fa-star text-warning"></i></li>
+                                <li class="list-inline-item"> <i class="fa fa-star text-warning"></i></li>
+                                <li class="list-inline-item"> <i class="fas fa-star text-warning"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <a class="carousel-control carousel-left carousel-control-prev position-absolute" href="#myCarousel" data-slide="prev">
+                        <i class="fa fa-angle-left fa-2x text-warning"></i>
+                    </a>
+                    <a class="carousel-control carousel-right carousel-control-next position-absolute" href="#myCarousel" data-slide="next">
+                        <i class="fa fa-angle-right fa-2x text-warning"></i>
+                    </a>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+</section>
+<!-- End of Testimonials -->
+
+
+
+
+<footer class="mt-5 pt-5 text-light">
+
+<!-- Top footer section -->
+<div class="row px-5">
+
+<div class="col-md-6 col-lg-4">
+
+<div class="row">
+        <div class="col-8 mr-auto">
+            <img src="images/logo.png" alt=""  width="100">
+        </div>
+        <div class="col-12 py-4">
+            <h4 class="text-left"> About Us</h4>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Voluptates hic, laudantium repudiandae dolorem atque 
+             at voluptatem distinctio recusandae.
+            </p>
+        </div>
+</div>
+
+</div>
+
+<div class="col-md-6 col-lg-4">
+
+        
+            <h4 class="text-lg-center mb-4">
+                Links
+            </h4>
+            <ul class="list-unstyled  text-lg-center">
+               <li class="footer-links"><a href="#">Home</a></li>
+               <li class="footer-links"><a href="#">About</a></li>
+               <li class="footer-links"><a href="#">Services</a></li>
+               <li class="footer-links"><a href="#">Engineering</a></li>
+               <li class="footer-links"><a href="#">Portfolio</a></li>
+               <li class="footer-links"><a href="#">Contact</a></li>
+            </ul>
+
+
+</div>
+
+<div class="col-md-6 col-lg-4 mb-4">
+
+        
+               
+                    <h4 class="text-lg-center mb-4"> Get in Touch</h4>
+
+                   <form class="contact-form">
+
+                    <div class="form-group mb-3">
+                        <input type="text" class="form-control mb-2" placeholder="Name">
+                                
+                        <input type="email" class="form-control mb-2" placeholder="Email">
+
+                        <textarea class="form-control" id="" cols="30" rows="3" placeholder="Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-outline-warning btn-round mx-auto d-block px-5 py-1"> Submit</button>
+
+                   </form>
+                
+        
+    
+</div>
+
+</div>
+<!-- End of top footer section -->
+
+
+<!-- Bottom footer section and copyright -->
+
+<div class="row justify-content-between bg-dark p-3">
+<span class="px-5"> Copyright &copy; 2019</span>
+<span class="px-5"> <a href="https://christopherike.com"> Designed by Christopher Ike </a></span>
+</div>
+<!-- End of bottom footer -->
+
+
+</footer>
+
+<script src="script/jquery.min.js"></script>
+<script src="script/bootstrap.js"></script>
+<script src="script/script.js"></script>
+<script src="script/popper.js"></script>
+</body>
+</html>
